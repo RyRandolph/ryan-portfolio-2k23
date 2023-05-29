@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Link href='/parallaxPage'>Parallax Page 1</Link>
+      <Link href='/parallaxPage2'>Parallax Page 2</Link>
       <Link href='/defaultPage'>Default Page</Link>
       <div className={gradientClass}>
         Hello World
