@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+This is my web-dev portfolio project.  My goal is to showoff myself in a creative way while also informing visitors of my capabilities.
+
+This project is developed with a mix of strengths and new tools.  I'm a strong React / javascript developer, so I'm experimenting in this project with the capabilities of Next.js and going to try force myself to get comfortable with typescript in the project.  I was not a big fan of it last time I tried it out, making code too verbose for type safety that added little value and a few headaches.... anyway... lets see how this goes ... back to coding. 
+
+s
+
+
 First, run the development server:
 
 ```bash

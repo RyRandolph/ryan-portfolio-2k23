@@ -3,6 +3,7 @@
 import '../app/globals.css'
 import React, { useEffect } from 'react';
 import classes from '../styles/pages/parallaxPage2.modules.css';
+import ParralaxGridContent from '@/app/components/parralaxGridContent';
 
 const ParallaxPage: React.FC = () => {
   useEffect(() => {
@@ -26,9 +27,11 @@ const ParallaxPage: React.FC = () => {
     <header
       className={`${classes['custom-img']} flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img`}
     >
-      <div className="p-5 text-2xl text-white bg-orange-300 bg-opacity-50 rounded-xl">
+      <ParralaxGridContent />
+      {/*<!-- <div className="p-5 text-2xl text-white bg-orange-300 bg-opacity-50 rounded-xl"> 
         Welcome to my site!
       </div>
+      */}
     </header>
     <div className="max-w-lg m-auto">
       <p className="mb-4">
@@ -54,12 +57,12 @@ const ParallaxPage: React.FC = () => {
         dolor. In bibendum rhoncus purus vel rutrum. Nam vulputate imperdiet
         fringilla. Donec blandit libero massa. Suspendisse dictum diam mauris, vitae
         fermentum dolor tincidunt in. Pellentesque sollicitudin venenatis dolor,
-        vitae scelerisque elit ultrices eu. Donec eget sodales risus, quis dignissim
+        vitae scelerisque elit ultrices euz Donec eget sodales risus, quis dignissim
         neque.
       </p>
     </div>
     <section
-    className="container flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img2"
+    className="flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img2"
     >
       <div className="p-5 text-2xl text-white bg-blue-300 bg-opacity-50 rounded-xl">
         Parralax inline
