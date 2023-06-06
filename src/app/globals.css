@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: 'Cursive-Coneria';
+  src: url('/fonts/coneria-script.ttf');
+  /* Add other font formats and sources if necessary */
+}

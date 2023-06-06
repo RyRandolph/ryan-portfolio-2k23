@@ -25,7 +25,7 @@ const ParallaxPage: React.FC = () => {
   return (
     <div>
     <header
-      className={`${classes['custom-img']} flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img`}
+      className={`${classes['custom-img']} flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg_fractal_flower`}
     >
       <ParralaxGridContent />
       {/*<!-- <div className="p-5 text-2xl text-white bg-orange-300 bg-opacity-50 rounded-xl"> 
@@ -62,8 +62,7 @@ const ParallaxPage: React.FC = () => {
       </p>
     </div>
     <section
-    className="flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img2"
-    >
+    className="flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover .bg_kaleida_neon">
       <div className="p-5 text-2xl text-white bg-blue-300 bg-opacity-50 rounded-xl">
         Parralax inline
       </div>

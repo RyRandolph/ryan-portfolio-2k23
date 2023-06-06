@@ -1,4 +1,12 @@
-.custom-img {
+.bg_fractal_flower {
+  background-image: url('/images/bg/bg_fractal_flower.jpeg');
+
+}
+.bg_kaleida_neon {
+  background-image: url('/images/bg/bg_kaleida_neon.jpeg');
+}
+
+.bg-custom-img {
   background-image: url('/images/Background-1.jpeg');
 }
 .custom-img2 {
