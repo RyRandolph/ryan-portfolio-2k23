@@ -1,4 +1,6 @@
 import React from 'react';
+import classes from '../../styles/components/parallaxGridContent.modules.css';
+
 
 const ParralaxGridContent: React.FC = () => {
   return (
@@ -7,7 +9,7 @@ const ParralaxGridContent: React.FC = () => {
         <div className="hidden md:block bg-orange-200 bg-opacity-50">Content 1</div>
         <div className="bg-orange-400 bg-opacity-50">Content 2</div>
         <div className="hidden md:block bg-orange-600 bg-opacity-50">Content 3</div>
-        <div className="hidden md:block bg-orange-800 bg-opacity-50">Content 4</div>
+        <div className={`hidden md:block bg-orange-800 bg-opacity-50 font-cursive`}>Ryan Randolph</div>
         <div className="bg-orange-200 bg-opacity-50">Content 5</div>
         <div className="hidden md:block bg-orange-400 bg-opacity-50">Content 6</div>
         <div className="hidden md:block bg-orange-600 bg-opacity-50">Content 7</div>

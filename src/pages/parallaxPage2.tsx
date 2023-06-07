@@ -3,7 +3,7 @@
 import '../app/globals.css'
 import React, { useEffect } from 'react';
 import classes from '../styles/pages/parallaxPage2.modules.css';
-import ParralaxGridContent from '@/app/components/parralaxGridContent';
+import ParralaxGridContent from '@/app/components/parallaxGridContent';
 
 const ParallaxPage: React.FC = () => {
   useEffect(() => {
