@@ -2,7 +2,7 @@
 
 import '../app/globals.css'
 import React, { useEffect } from 'react';
-import classes from '../styles/pages/parallaxPage2.modules.css';
+import classes from '../styles/pages/parallaxPage2.module.css';
 import ParralaxGridContent from '@/app/components/parallaxGridContent';
 
 const ParallaxPage: React.FC = () => {
@@ -25,7 +25,7 @@ const ParallaxPage: React.FC = () => {
   return (
     <div>
     <header
-      className={`${classes['custom-img']} flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover bg_fractal_flower`}
+      className={`${classes['bg_fractal_flower']} flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover`}
     >
       <ParralaxGridContent />
       {/*<!-- <div className="p-5 text-2xl text-white bg-orange-300 bg-opacity-50 rounded-xl"> 
@@ -62,7 +62,7 @@ const ParallaxPage: React.FC = () => {
       </p>
     </div>
     <section
-    className="flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover .bg_kaleida_neon">
+    className={`${classes['bg_kaleida_neon']} flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover`}>
       <div className="p-5 text-2xl text-white bg-blue-300 bg-opacity-50 rounded-xl">
         Parralax inline
       </div>

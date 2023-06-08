@@ -1,0 +1,10 @@
+.font-cursive {
+    font-family: 'Cursive-Coneria';
+    color: orange;
+    text-shadow: 2px 2px 5px #000066;
+  }
+
+.image-space {
+  max-width:100%;
+  max-height:100%;
+}

@@ -2,7 +2,7 @@
 
 import '../app/globals.css'
 import React, { useEffect } from 'react';
-import classes from '../styles/pages/parallaxPage.modules.css';
+import classes from '../styles/pages/parallaxPage.module.css';
 
 const ParallaxPage: React.FC = () => {
 
