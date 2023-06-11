@@ -4,6 +4,7 @@ import '../app/globals.css'
 import React, { useEffect } from 'react';
 import classes from '../styles/pages/parallaxPage2.module.css';
 import ParralaxGridContent from '@/app/components/parallaxGridContent';
+import DescriptionContent1 from '@/app/components/descriptionContent1';
 
 const ParallaxPage: React.FC = () => {
   useEffect(() => {
@@ -34,32 +35,7 @@ const ParallaxPage: React.FC = () => {
       */}
     </header>
     <div className="max-w-lg m-auto">
-      <p className="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat a
-        magna non varius. Proin leo felis, euismod non porta eget, varius sit amet
-        sapien. Maecenas in nulla at leo convallis consectetur id a sapien. Nulla
-        nec pulvinar nisi. Vivamus non facilisis lacus, et volutpat libero. Nulla ac
-        odio aliquam, accumsan arcu ut, lacinia est. Nulla eu sem elit. Fusce nec
-        laoreet sem, semper molestie libero.
-      </p>
-      <p className="mb-4">
-        Ut sagittis lacus consequat accumsan venenatis. Sed sollicitudin, lectus et
-        fringilla ultrices, dolor nisi scelerisque tortor, vel finibus magna massa
-        non nunc. Phasellus massa quam, egestas a nisl sed, porta volutpat metus.
-        Nunc sed elit ac tellus tempor cursus. Suspendisse potenti. Vestibulum
-        varius rutrum nisl nec consequat. Suspendisse semper dignissim sem viverra
-        semper. Nulla porttitor, purus nec accumsan pharetra, nisi dolor condimentum
-        ipsum, id consequat nulla nunc in ligula.
-      </p>
-      <p className="mb-12">
-        Nulla pharetra lacinia nisi, vitae mollis tellus euismod id. Mauris porta
-        dignissim hendrerit. Cras id velit varius, fermentum lectus vitae, ultricies
-        dolor. In bibendum rhoncus purus vel rutrum. Nam vulputate imperdiet
-        fringilla. Donec blandit libero massa. Suspendisse dictum diam mauris, vitae
-        fermentum dolor tincidunt in. Pellentesque sollicitudin venenatis dolor,
-        vitae scelerisque elit ultrices euz Donec eget sodales risus, quis dignissim
-        neque.
-      </p>
+      <DescriptionContent1 />
     </div>
     <section
     className={`${classes['bg_kaleida_neon']} flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover`}>
