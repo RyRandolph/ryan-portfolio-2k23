@@ -1,11 +1,13 @@
 import React from 'react';
-//import classes from '../../styles/components/descriptionContent.module.css';
+import classes from '../../styles/components/descriptionContent.module.css';
 
 const DescriptionContent1: React.FC = () => {
   return (
     <React.Fragment>
-      <p className="mb-4">
-      I am a Software Engineering professional specializing in Front End and Full 
+      <p className={`${classes['intro-text']} text-xl mb-4`}>
+      I am a Software Engineering professional with 24 years of experience.  I 
+      specialize in front-end and full-stack application development. I've got many 
+      years of team leading experience as well.  I've got a lot of strengths
       stack development . My strengths include vast experience and trending skillsets. 
       I have achieved multiple technical awards from my employers and have delivered 
       many applications and functions over my career and am excited about bringing 

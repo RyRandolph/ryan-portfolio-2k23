@@ -3,7 +3,8 @@
 import '../app/globals.css'
 import React, { useEffect } from 'react';
 import classes from '../styles/pages/parallaxPage2.module.css';
-import ParralaxGridContent from '@/app/components/parallaxGridContent';
+import ParralaxGridContent from '@/app/components/parallaxImagesContent';
+import ParallaxSkillsContent from '@/app/components/parallaxSkillsContent';
 import DescriptionContent1 from '@/app/components/descriptionContent1';
 
 const ParallaxPage: React.FC = () => {
@@ -39,9 +40,8 @@ const ParallaxPage: React.FC = () => {
     </div>
     <section
     className={`${classes['bg_kaleida_neon']} flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover`}>
-      <div className="p-5 text-2xl text-white bg-blue-300 bg-opacity-50 rounded-xl">
-        Parralax inline
-      </div>
+      
+        <ParallaxSkillsContent />
     </section>
     <div className="max-w-lg m-auto">
       <p className="mb-4">
