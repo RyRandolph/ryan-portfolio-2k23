@@ -1,7 +1,7 @@
 .font-cursive {
     font-family: 'Cursive-Coneria';
     color: orange;
-    text-shadow: 2px 2px 5px #000066;
+    text-shadow: 3px 3px 6px #000033;
   }
 
 .image-space {
@@ -24,74 +24,90 @@
 }
 
 
-@keyframes shimmy-animationXPlus {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(15px); /* Adjust the distance as needed */
-  }
-  100% {
-    transform: translateX(0);
-  }
+@keyframes shimmy-animationX1 {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(10px) translateY(5px) rotate(-3deg); }
+  66% { transform: translateX(5px) translateY(10px) rotate(3deg); }
+  100% { transform: translateX(0); }
+} 
+@keyframes shimmy-animationX2 {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-10px) translateY(5px) rotate(3deg);  }
+  66% { transform: translateX(-5px) translateY(-7px) rotate(-3deg);  }
+  100% { transform: translateX(0) rotate(0deg); }
 }
-@keyframes shimmy-animationXMinus {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-15px); /* Adjust the distance as needed */
-  }
-  100% {
-    transform: translateX(0);
-  }
+@keyframes shimmy-animationX3 {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-7px) translateY(3px) rotate(-1deg);  }
+  25% { transform: translateX(-15px) translateY(7px) rotate(3deg);  }
+  75% { transform: translateX(-7px) translateY(-2px) rotate(1deg);  }
+  100% { transform: translateX(0) rotate(0deg); }
 }
-@keyframes shimmy-animationYPlus {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(15px); /* Adjust the distance as needed */
-  }
-  100% {
-    transform: translateY(0);
-  }
+@keyframes shimmy-animationY1 {
+  0% { transform: translateY(0); }
+  33% { transform: translateY(5px) translateX(-5px) rotate(-3deg); }
+  66% { transform: translateY(10px) translateX(-8px) rotate(3deg); }
+  100% { transform: translateY(0); }
 }
-@keyframes shimmy-animationYMinus {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-15px); /* Adjust the distance as needed */
-  }
-  100% {
-    transform: translateY(0);
-  }
+@keyframes shimmy-animationY2 {
+  0% { transform: translateY(0); }
+  33% { transform: translateY(-5px) translateX(5px) rotate(3deg); }
+  66% { transform: translateY(-10px) translateX(-5px) rotate(-3deg); }
+  100% { transform: translateY(0); }
+}
+@keyframes shimmy-animationY3 {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-7px) translateX(-2px) rotate(1deg); }
+  50% { transform: translateY(-15px) translateX(8px) rotate(-3deg); }
+  75% { transform: translateY(-7px) translateX(3px) rotate(-1deg); }
+  100% { transform: translateY(0); }
 }
 
 .shimmy-1 {
-  animation: shimmy-animationXPlus 5s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationX1 12s infinite; 
+  animation-timing-function: ease-in-out;
 }
 .shimmy-2 {
-  animation: shimmy-animationXMinus 6s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationX2 13s infinite;
+  animation-timing-function: ease-in-out;
 }
-
 .shimmy-3 {
-  animation: shimmy-animationYPlus 5s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationY1 11s infinite;
+  animation-timing-function: ease-in-out;
 }
 .shimmy-4 {
-  animation: shimmy-animationYMinus 6s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationY2 14s infinite;
+  animation-timing-function: ease-in-out;
 }
 .shimmy-5 {
-  animation: shimmy-animationXPlus 8s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationX1 15s infinite;
+  animation-timing-function: ease-in-out;
 }
 .shimmy-6 {
-  animation: shimmy-animationXMinus 9s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationX2 16s infinite;
+  animation-timing-function: ease-in-out;
 }
-
 .shimmy-7 {
-  animation: shimmy-animationYPlus 8s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationY1 9s infinite;
+  animation-timing-function: ease-in-out;
 }
 .shimmy-8 {
-  animation: shimmy-animationYMinus 9s infinite; /* Adjust the duration as needed */
+  animation: shimmy-animationY2 17s infinite;
+  animation-timing-function: ease-in-out;
+}
+.shimmy-9 {
+  animation: shimmy-animationX3 18s infinite;
+  animation-timing-function: ease-in-out;
+}
+.shimmy-10 {
+  animation: shimmy-animationX3 12s infinite;
+  animation-timing-function: ease-in-out;
+}
+.shimmy-11 {
+  animation: shimmy-animationY3 19s infinite;
+  animation-timing-function: ease-in-out;
+}
+.shimmy-12 {
+  animation: shimmy-animationY3 13s infinite;
+  animation-timing-function: ease-in-out;
 }
