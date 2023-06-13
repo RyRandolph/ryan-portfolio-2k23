@@ -22,3 +22,76 @@
   width: 100%;
   height: 100%;
 }
+
+
+@keyframes shimmy-animationXPlus {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px); /* Adjust the distance as needed */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes shimmy-animationXMinus {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-15px); /* Adjust the distance as needed */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes shimmy-animationYPlus {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px); /* Adjust the distance as needed */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes shimmy-animationYMinus {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* Adjust the distance as needed */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.shimmy-1 {
+  animation: shimmy-animationXPlus 5s infinite; /* Adjust the duration as needed */
+}
+.shimmy-2 {
+  animation: shimmy-animationXMinus 6s infinite; /* Adjust the duration as needed */
+}
+
+.shimmy-3 {
+  animation: shimmy-animationYPlus 5s infinite; /* Adjust the duration as needed */
+}
+.shimmy-4 {
+  animation: shimmy-animationYMinus 6s infinite; /* Adjust the duration as needed */
+}
+.shimmy-5 {
+  animation: shimmy-animationXPlus 8s infinite; /* Adjust the duration as needed */
+}
+.shimmy-6 {
+  animation: shimmy-animationXMinus 9s infinite; /* Adjust the duration as needed */
+}
+
+.shimmy-7 {
+  animation: shimmy-animationYPlus 8s infinite; /* Adjust the duration as needed */
+}
+.shimmy-8 {
+  animation: shimmy-animationYMinus 9s infinite; /* Adjust the duration as needed */
+}
