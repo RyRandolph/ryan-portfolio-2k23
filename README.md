@@ -6,7 +6,11 @@ This is my web-dev portfolio project.  My goal is to showoff myself in a creativ
 
 This project is developed with a mix of strengths and new tools.  I'm a strong React / javascript developer, so I'm experimenting in this project with the capabilities of Next.js and going to try force myself to get comfortable with typescript in the project.  I was not a big fan of it last time I tried it out, making code too verbose for type safety that added little value and a few headaches.... anyway... lets see how this goes ... back to coding. 
 
-s
+TODO:
+Change Backgrounds.
+Add imagery that slides with backgrounds.  Right now its just a singluar div... but build out perhaps some other artwork or the like that slides away, or perhaps a skills mindmap type thing.
+
+
 
 
 First, run the development server:
